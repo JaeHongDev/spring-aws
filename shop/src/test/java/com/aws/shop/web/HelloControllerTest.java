@@ -2,6 +2,9 @@ package com.aws.shop.web;
 
 
 import org.junit.runner.RunWith;
+
+import com.aws.shop.ShopApplication;
+
 import org.hamcrest.core.Is;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +16,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = HelloController.class)
- public class HelloControllerTest {
+public class HelloControllerTest {
   @Autowired
   private MockMvc mvc;
 
