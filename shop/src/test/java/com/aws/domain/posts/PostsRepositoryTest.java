@@ -21,7 +21,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@ContextConfiguration(classes = ShopApplication.class)
 public class PostsRepositoryTest {
   
   @Autowired

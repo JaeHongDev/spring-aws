@@ -3,7 +3,6 @@ package com.aws.shop.web;
 
 import org.junit.runner.RunWith;
 
-import com.aws.shop.ShopApplication;
 
 import org.hamcrest.core.Is;
 import org.junit.Test;
